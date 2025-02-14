@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Métodos Abreviados</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #74ebd5, #acb6e5); 
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            color: #333;
+        }
+        .question { 
+            margin: 20px 0; 
+            padding: 15px; 
+            font-size: 18px; 
+            background-color: #ffffff; 
+            border-radius: 10px; 
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+            text-align: left;
+        }
+        .correct { color: green; font-weight: bold; }
+        .incorrect { color: red; font-weight: bold; }
+        .result { margin-top: 10px; font-weight: bold; font-size: 20px; }
+        button { 
+            margin-top: 10px; 
+            padding: 12px 20px; 
+            background-color: #007BFF; 
+            color: white; 
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+        button:hover { background-color: #0056b3; }
+    </style>
+    <script src="preguntas.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Test de Métodos Abreviados</h1>
+        <form id="quiz-form">
+            <div id="question-container"></div>
+            <button type="button" onclick="checkAnswers()">Verificar Respuestas</button>
+            <button type="button" onclick="nextPage()">Siguiente</button>
+        </form>
+        <div id="result-container"></div>
+    </div>
+
+    <script>
+        let currentPage = 0;
+        const questionsPerPage = 10;
+        
+        function generateTest() {
+            let start = currentPage * questionsPerPage;
+            let end = start + questionsPerPage;
+            let testQuestions = allQuestions.slice(start, end);
+            const container = document.getElementById("question-container");
+            container.innerHTML = "";
+            testQuestions.forEach((item, index) => {
+                const div = document.createElement("div");
+                div.classList.add("question");
+                div.innerHTML = `<p>${item.question}</p>` +
+                    item.options.map(option => `<input type='radio' name='answer${index}' value='${option}'> ${option}<br>`).join("");
+                container.appendChild(div);
+            });
+        }
+        
+        function checkAnswers() {
+            let correctCount = 0;
+            let testQuestions = document.querySelectorAll(".question");
+            
+            testQuestions.forEach((questionDiv, index) => {
+                const selectedOption = document.querySelector(`input[name='answer${index}']:checked`);
+                const correctAnswer = allQuestions[currentPage * questionsPerPage + index].answer;
+                
+                if (selectedOption) {
+                    if (selectedOption.value === correctAnswer) {
+                        questionDiv.classList.add("correct");
+                        correctCount++;
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.innerHTML += `<p class='correct'>Respuesta correcta: ${correctAnswer}</p>`;
+                    }
+                }
+            });
+            document.getElementById("result-container").innerHTML = `<p class='result'>Has acertado ${correctCount} de ${testQuestions.length} preguntas.</p>`;
+        }
+        
+        function nextPage() {
+            if ((currentPage + 1) * questionsPerPage >= allQuestions.length) {
+                currentPage = 0; // Reiniciar cuando lleguemos al final
+            } else {
+                currentPage++;
+            }
+            generateTest();
+            document.getElementById("result-container").innerHTML = "";
+        }
+        
+        window.onload = generateTest;
+    </script>
+</body>
+</html>

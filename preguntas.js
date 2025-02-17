@@ -1,5 +1,5 @@
 let allQuestions = [
-    { question: "¿Qué hace el atajo 'Tabulador'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows o cuadro de diálogo 'Tabulador'?",
       options: ["mover la ventana activa para supervisarla", "avanzar por las opciones.", "abrir la búsqueda del símbolo del sistema."],
       answer: "avanzar por las opciones." },
 
@@ -7,7 +7,7 @@ let allQuestions = [
       options: ["copiar los elementos seleccionados en el Portapapeles.", "abre la Vista de tareas.", "subir un nivel en la ruta de acceso de la carpeta."],
       answer: "abre la Vista de tareas." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + F'?",
+    { question: "¿Qué hace el atajo del Simbolo  del Sistema 'Ctrl + F'?",
       options: ["abrir la búsqueda del símbolo del sistema.", "abre el Área de trabajo de Windows Ink.", "mostrar los elementos de la lista activa."],
       answer: "abrir la búsqueda del símbolo del sistema." },
 
@@ -31,11 +31,11 @@ let allQuestions = [
       options: ["alejar con la lupa.", "realizar una captura de pantalla completa en la carpeta Capturas de", "comando Abrir ejecución."],
       answer: "alejar con la lupa." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + Tecla de dirección arriba'?",
+    { question: "¿Qué hace el atajo del Simbolo  del Sistema'Ctrl + Tecla de dirección arriba'?",
       options: ["ver aplicaciones abiertas.", "mover el cursor al principio del párrafo anterior", "retroceder por las opciones."],
       answer: "mover el cursor al principio del párrafo anterior" },
 
-    { question: "¿Qué hace el atajo 'Tecla  Windows + Ctrl + Flecha izquierda'?",
+    { question: "¿Qué hace el atajo de Escritorio Virtual 'Tecla  Windows + Ctrl + Flecha izquierda'?",
       options: ["establecer el foco en una sugerencia de Windows 10 cuando sea aplicable.", "cambiar al escritorio virtual de la izquierda.", "desplazarse por las ventanas abiertas."],
       answer: "cambiar al escritorio virtual de la izquierda." },
 
@@ -43,11 +43,11 @@ let allQuestions = [
       options: ["desplazarse por las ventanas abiertas.", "establecer el foco en una sugerencia de Windows 10 cuando sea aplicable.", "establecer el foco en una sugerencia de Windows 10 cuando sea aplicable."],
       answer: "establecer el foco en una sugerencia de Windows 10 cuando sea aplicable." },
 
-    { question: "¿Qué hace el atajo 'Alt + Flecha derecha'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'Alt + Flecha derecha'?",
       options: ["mostrar los elementos de la lista activa.", "ver carpeta siguiente.", "comando Abrir ejecución."],
       answer: "ver carpeta siguiente." },
 
-    { question: "¿Qué hace el atajo 'Teclas de dirección izquierda o derecha'?",
+    { question: "¿Qué hace el atajo del Simbolo  del Sistema'Teclas de dirección izquierda o derecha'?",
       options: ["cambiar el tamaño del menú Inicio.", "mover el cursor a la izquierda o a la derecha en la línea", "cambiar a la última ventana activa de la aplicación en la"],
       answer: "mover el cursor a la izquierda o a la derecha en la línea" },
 
@@ -55,7 +55,7 @@ let allQuestions = [
       options: ["comprueba o desactiva la opción que tiene el foco.", "abrir la búsqueda del símbolo del sistema.", "ejecuta el comando de la letra subrayada en las aplicaciones."],
       answer: "ejecuta el comando de la letra subrayada en las aplicaciones." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + A'?",
+    { question: "¿Qué hace el atajo  del Simbolo  del Sistema 'Ctrl + A'?",
       options: ["ejecuta el comando de la letra subrayada en las aplicaciones.", "cambiar el modo de pantalla completa de la ventana activa.", "seleccionar todo el contenido de la línea actual."],
       answer: "seleccionar todo el contenido de la línea actual." },
 
@@ -83,7 +83,7 @@ let allQuestions = [
       options: ["desplazarse por los elementos de la pantalla.", "aplicación Acoplar o ventana a la izquierda.", "cambia entre los escritorios virtuales que creaste a la"],
       answer: "aplicación Acoplar o ventana a la izquierda." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + Mayús + Número (1-8)'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'Ctrl + Mayús + Número (1-8)'?",
       options: ["vista de carpeta Cambios.", "cambiar la opción de entrada seleccionada anterior.", "abre otra instancia como administrador de la"],
       answer: "vista de carpeta Cambios." },
 
@@ -91,7 +91,7 @@ let allQuestions = [
       options: ["acerca con la lupa.", "crear un escritorio virtual.", "abre otra instancia como administrador de la"],
       answer: "acerca con la lupa." },
 
-    { question: "¿Qué hace el atajo 'Teclas de dirección'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows o cuadro de diálogo 'Teclas de dirección'?",
       options: ["seleccione un botón si la opción activa es un grupo de botones de opción.", "cambie el foco a la barra de direcciones.", "Windows 10 Maximiza o minimiza las ventanas"],
       answer: "seleccione un botón si la opción activa es un grupo de botones de opción." },
 
@@ -107,7 +107,7 @@ let allQuestions = [
       options: ["avanzar.", "desplazarse por los elementos de la pantalla.", "cambia entre los escritorios virtuales que creaste a la"],
       answer: "avanzar." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + Tabulador'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows o cuadro de diálogo 'Ctrl + Tabulador'?",
       options: ["abre otra instancia de una aplicación desde la barra de", "ejecuta el comando de la letra subrayada en las aplicaciones.", "permite avanzar por las pestañas."],
       answer: "permite avanzar por las pestañas." },
 
@@ -119,7 +119,7 @@ let allQuestions = [
       options: ["desplazarse por las ventanas del grupo desde la", "abrir Asistencia rápida.", "bloquea el equipo."],
       answer: "abrir Asistencia rápida." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + C (o Ctrl + Insertar)'?",
+    { question: "¿Qué hace el atajo  del Simbolo  del Sistema 'Ctrl + C (o Ctrl + Insertar)'?",
       options: ["abrir Configuración.", "abrir Asistencia rápida.", "copiar los elementos seleccionados en el Portapapeles."],
       answer: "copiar los elementos seleccionados en el Portapapeles." },
 
@@ -127,9 +127,9 @@ let allQuestions = [
       options: ["mover la ventana activa para supervisarla", "ver carpeta siguiente.", "abrir el menú contextual de la ventana activa."],
       answer: "mover la ventana activa para supervisarla" },
 
-    { question: "¿Qué hace el atajo 'Retroceso'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows o cuadro de diálogo 'Retroceso'?",
       options: ["ojear temporalmente el escritorio.", "expande todas las carpetas del árbol en el panel de navegación.", "abrir una carpeta de un nivel superior si se selecciona una carpeta en el cuadro de"],
-      answer: "abrir una carpeta de un nivel superior si se selecciona una carpeta en el cuadro de" },
+      answer: "abrir una carpeta de un nivel superior si se selecciona una carpeta en el cuadro de diálogo Guardar como o Abrir." },
 
     { question: "¿Qué hace el atajo 'Tecla  Windows + K'?",
       options: ["abre la configuración de Conectar.", "seleccionar todo el contenido de la línea actual.", "subir una pantalla."],
@@ -155,7 +155,7 @@ let allQuestions = [
       options: ["mostrar los elementos de la lista activa.", "abre la vista de tareas.", "mover la ventana activa para"],
       answer: "mover la ventana activa para" },
 
-    { question: "¿Qué hace el atajo 'Tecla  Windows + D'?",
+    { question: "¿Qué hace el atajo del Simbolo del Sistema 'Tecla  Windows + D'?",
       options: ["mostrar y ocultar el escritorio.", "cuadro de diálogo Mostrar propiedades del sistema.", "agregar un escritorio virtual."],
       answer: "mostrar y ocultar el escritorio." },
 
@@ -163,7 +163,7 @@ let allQuestions = [
       options: ["cambiar a la última ventana activa de la aplicación en la", "abre la Vista de tareas.", "avanzar por las opciones."],
       answer: "cambiar a la última ventana activa de la aplicación en la" },
 
-    { question: "¿Qué hace el atajo 'Ctrl + clic en un botón de la barra de tareas agrupadas'?",
+    { question: "¿Qué hace el atajo de la barra de tareas 'Ctrl + clic en un botón de la barra de tareas agrupadas'?",
       options: ["desplazarse por las ventanas del grupo", "cambiar entre escritorios virtuales que creaste a la", "agregar un escritorio virtual."],
       answer: "desplazarse por las ventanas del grupo" },
 
@@ -171,7 +171,7 @@ let allQuestions = [
       options: ["desplazarse por las ventanas del grupo desde la", "mostrar el menú de la ventana de la aplicación desde la", "bloquea el equipo."],
       answer: "mostrar el menú de la ventana de la aplicación desde la" },
 
-    { question: "¿Qué hace el atajo 'Ctrl + Inicio'?",
+    { question: "¿Qué hace el atajo del Simbolo  del Sistema 'Ctrl + Inicio'?",
       options: ["desplácese hasta la parte superior de la consola.", "desplazarse por los elementos de la pantalla.", "panel de vista previa de pantalla."],
       answer: "desplácese hasta la parte superior de la consola." },
 
@@ -179,15 +179,15 @@ let allQuestions = [
       options: ["mostrar los elementos de la lista activa.", "salta a la posición de tabulación.", "cambiar la entrada entre el escritorio y Mixed Reality."],
       answer: "cambiar la entrada entre el escritorio y Mixed Reality." },
 
-    { question: "¿Qué hace el atajo 'Alt + Entrar'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'Alt + Entrar'?",
       options: ["abrir el menú contextual del elemento seleccionado.", "abrir la configuración de Propiedades del elemento seleccionado.", "desplazarse por el historial de comandos de la sesión actual."],
       answer: "abrir la configuración de Propiedades del elemento seleccionado." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + M'?",
+    { question: "¿Qué hace el atajo del Simbolo  del Sistema'Ctrl + M'?",
       options: ["abre la lista de accesos directos de la aplicación en", "seleccione un botón de la configuración activa.", "inicia el modo de marca."],
       answer: "inicia el modo de marca." },
 
-    { question: "¿Qué hace el atajo 'F11'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'F11'?",
       options: ["abre la Vista de tareas.", "avanzar a través de las pestañas.", "cambiar el modo de pantalla completa de la ventana activa."],
       answer: "cambiar el modo de pantalla completa de la ventana activa." },
 
@@ -227,7 +227,7 @@ let allQuestions = [
       options: ["función de dictado abierto.", "cierra el escritorio virtual que estás usando.", "Minimizar ventanas de la aplicación."],
       answer: "función de dictado abierto." },
 
-    { question: "¿Qué hace el atajo 'Alt + letra subrayada'?",
+    { question: "¿Qué hace el atajo del cuadro de diálogo 'Alt + letra subrayada'?",
       options: ["establecer el foco en una sugerencia de Windows 10 cuando sea aplicable.", "desplazarse por las ventanas abiertas.", "ejecute el comando (o seleccione la opción) que se usa con esa letra."],
       answer: "ejecute el comando (o seleccione la opción) que se usa con esa letra." },
 
@@ -235,7 +235,7 @@ let allQuestions = [
       options: ["avanzar.", "abrir el menú contextual del elemento seleccionado.", "cambiar el tamaño del menú Inicio."],
       answer: "abrir el menú contextual del elemento seleccionado." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + V (o Mayús + Insertar)'?",
+    { question: "¿Qué hace el atajo  del Simbolo  del Sistema'Ctrl + V (o Mayús + Insertar)'?",
       options: ["seleccione un botón de la configuración activa.", "abre la lista de accesos directos de la aplicación en", "pegar contenido del Portapapeles."],
       answer: "pegar contenido del Portapapeles." },
 
@@ -247,7 +247,7 @@ let allQuestions = [
       options: ["abre la Vista de tareas.", "seleccionar barra de direcciones.", "cambiar la opción de entrada seleccionada anterior."],
       answer: "cambiar la opción de entrada seleccionada anterior." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + rueda del mouse'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'Ctrl + rueda del mouse'?",
       options: ["agregar un escritorio virtual.", "cambiar el archivo de vista y la carpeta.", "cambiar entre escritorios virtuales que creaste a la"],
       answer: "cambiar el archivo de vista y la carpeta." },
 
@@ -267,11 +267,11 @@ let allQuestions = [
       options: ["agregar un escritorio virtual.", "estirar la ventana del escritorio a la parte", "cuadro de diálogo Mostrar propiedades del sistema."],
       answer: "estirar la ventana del escritorio a la parte" },
 
-    { question: "¿Qué hace el atajo 'Alt + Flecha izquierda (o Retroceso)'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'Alt + Flecha izquierda (o Retroceso)'?",
       options: ["ver la carpeta anterior.", "seleccionar todo el contenido de la línea actual.", "subir una pantalla."],
       answer: "ver la carpeta anterior." },
 
-    { question: "¿Qué hace el atajo 'F4'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'F4'?",
       options: ["cambie el foco a la barra de direcciones.", "abre la vista de tareas.", "mostrar los elementos de la lista activa."],
       answer: "cambie el foco a la barra de direcciones." },
 
@@ -283,7 +283,7 @@ let allQuestions = [
       options: ["mostrar el menú de la ventana del grupo", "mostrar los elementos de la lista activa.", "abre el Explorador de archivos."],
       answer: "mostrar el menú de la ventana del grupo" },
 
-    { question: "¿Qué hace el atajo 'Ctrl + E (o F)'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'Ctrl + E (o F)'?",
       options: ["desplácese hasta la parte superior de la ventana.", "seleccione el cuadro de búsqueda.", "ejecute el comando (o seleccione la opción) que se usa con esa letra."],
       answer: "seleccione el cuadro de búsqueda." },
 
@@ -291,7 +291,7 @@ let allQuestions = [
       options: ["desplazarse por el historial de comandos de la sesión actual.", "bajar una pantalla.", "abrir el menú contextual del elemento seleccionado."],
       answer: "bajar una pantalla." },
 
-    { question: "¿Qué hace el atajo 'Alt + letra de subrayado'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows 'Alt + letra de subrayado'?",
       options: ["abre el Explorador de archivos.", "acciones de la configuración identificada por la letra.", "desplazarse por las ventanas abiertas."],
       answer: "acciones de la configuración identificada por la letra." },
 
@@ -307,7 +307,7 @@ let allQuestions = [
       options: ["muestra la contraseña escrita en la pantalla de inicio de sesión.", "crear un escritorio virtual.", "cerrar el escritorio virtual activo."],
       answer: "crear un escritorio virtual." },
 
-    { question: "¿Qué hace el atajo 'Ctrl + Mayús + Tabulador'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows o cuadro de diálogo 'Ctrl + Mayús + Tabulador'?",
       options: ["ejecute el comando (o seleccione la opción) que se usa con esa letra.", "cambiar el tamaño del menú Inicio.", "retroceder a través de las pestañas."],
       answer: "retroceder a través de las pestañas." },
 
@@ -335,7 +335,7 @@ let allQuestions = [
       options: ["abre configuración de Project.", "abre la vista de tareas.", "abrir una carpeta de un nivel superior si se selecciona una carpeta en el cuadro de"],
       answer: "abre configuración de Project." },
 
-    { question: "¿Qué hace el atajo 'F5'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'F5'?",
       options: ["agregar un escritorio virtual.", "cuadro de diálogo Mostrar propiedades del sistema.", "actualizar la vista actual del Explorador de archivos."],
       answer: "actualizar la vista actual del Explorador de archivos." },
 
@@ -351,7 +351,7 @@ let allQuestions = [
       options: ["selecciona varios elementos en", "abre la vista de tareas.", "inicia la aplicación Centro de opiniones."],
       answer: "selecciona varios elementos en" },
 
-    { question: "¿Qué hace el atajo 'Alt + P'?",
+    { question: "¿Qué hace el atajo del explorador de archivos 'Alt + P'?",
       options: ["panel de vista previa de pantalla.", "abre otra instancia como administrador de la", "crear un escritorio virtual."],
       answer: "panel de vista previa de pantalla." },
 
@@ -359,19 +359,19 @@ let allQuestions = [
       options: ["avanza por la configuración.", "abre la configuración de Conectar.", "abre otra instancia de una aplicación desde la barra de"],
       answer: "abre otra instancia de una aplicación desde la barra de" },
 
-    { question: "¿Qué hace el atajo 'Mayús + Tabulador'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows 'Mayús + Tabulador'?",
       options: ["abrir el menú contextual del elemento seleccionado.", "retrocede por la configuración.", "desplazarse por el historial de comandos de la sesión actual."],
       answer: "retrocede por la configuración." },
 
-    { question: "¿Qué hace el atajo 'Barra espaciadora'?",
+    { question: "¿Qué hace el atajo de la página de configuración de Windows 'Barra espaciadora'?",
       options: ["comprueba o desactiva la opción que tiene el foco.", "cambiar distribución del teclado.", "abre el centro de actividades."],
       answer: "comprueba o desactiva la opción que tiene el foco." },
 
-    { question: "¿Qué hace el atajo 'Tecla  Windows + Ctrl + Flecha derecha'?",
+    { question: "¿Qué hace el atajo de Escritorio Virtual 'Tecla  Windows + Ctrl + Flecha derecha'?",
       options: ["cuadro de diálogo Mostrar propiedades del sistema.", "cambia entre los escritorios virtuales que creaste a la", "cambia entre los escritorios virtuales que creaste a la"],
-      answer: "cambia entre los escritorios virtuales que creaste a la" },
+      answer: "cambia entre los escritorios virtuales que creaste a la derecha" },
 
-    { question: "¿Qué hace el atajo 'Tecla  Windows + Ctrl + F4'?",
+    { question: "¿Qué hace el atajo de Escritorio Virtual 'Tecla  Windows + Ctrl + F4'?",
       options: ["cerrar el escritorio virtual activo.", "ejecute el comando (o seleccione la opción) que se usa con esa letra.", "cambiar el tamaño del menú Inicio."],
       answer: "cerrar el escritorio virtual activo." },
 
@@ -379,11 +379,11 @@ let allQuestions = [
       options: ["reactivar el dispositivo cuando esté negro o una pantalla en", "estirar la ventana del escritorio a la parte", "copiar los elementos seleccionados en el Portapapeles."],
       answer: "reactivar el dispositivo cuando esté negro o una pantalla en" },
 
-    { question: "¿Qué hace el atajo 'Ctrl + Tecla de dirección abajo'?",
+    { question: "¿Qué hace el atajo del Simbolo  del Sistema 'Ctrl + Tecla de dirección abajo'?",
       options: ["ejecute el comando (o seleccione la opción) que se usa con esa letra.", "active o desactive la casilla si la opción activa es una casilla.", "mover la pantalla una línea hacia abajo."],
       answer: "mover la pantalla una línea hacia abajo." },
 
-    { question: "¿Qué hace el atajo 'F4'?",
+    { question: "¿Qué hace el atajo del cuadro de diálogo 'F4'?",
       options: ["mostrar los elementos de la lista activa.", "ojear temporalmente el escritorio.", "desplazarse por las ventanas abiertas."],
       answer: "mostrar los elementos de la lista activa." },
 
